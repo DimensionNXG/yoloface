@@ -3,11 +3,11 @@
 W_FILENAME=yolov3-wider_16000.weights.zip
 H5_FILENAME=YOLO_Face.h5.zip
 
-if [ ! -d "./model-weights" ]; then
-    mkdir -p ./model-weights;
-fi
+#if [ ! -d "./model-weights" ]; then
+#    mkdir -p ./model-weights;
+#fi
 
-cd model-weights
+#cd model-weights
 
 # Download yoloface models
 echo "*** Downloading the trained models..."
